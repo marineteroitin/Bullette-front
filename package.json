@@ -1,0 +1,26 @@
+{
+  "name": "bullette-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marineteroitin/Bullette-front.git"
+  },
+  "author": "Marine Téroitin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marineteroitin/Bullette-front/issues"
+  },
+  "homepage": "https://github.com/marineteroitin/Bullette-front#readme",
+  "dependencies": {
+    "Promise": "^1.0.5"
+  }
+}
