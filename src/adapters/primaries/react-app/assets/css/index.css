@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color: #EFF3F8;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.noTextDecoration {
+  text-decoration: none;
+}
+
+/* fields inputs  */
+
+.-input {
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: inset 8px 8px 8px #cbced1,
+  inset -8px -8px 8px #EFF3F8;
+}
+.-input input {
+  border: none;
+  outline:none;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  padding:15px 5px 15px 20px;
+}
+
+/* foreground color */
+
+.blackColor {
+  color: #001524;
+}
+
+.purpleColor {
+  color: #7727FF;
+}
+
+.lavenderColor {
+  color: #A987E2;
+}
+
+.lighGrayColor {
+  color: #D0D4D9;
+}
+
+.whiteColor {
+  color: #ffffff;
+}
+/** Font Selectors **/
+.font60px {
+  font-size: 60px;
+}
+
+.font46px {
+  font-size: 46px;
+}
+
+.font42px {
+  font-size: 42px;
+}
+
+.font34px {
+  font-size: 34px;
+}
+
+.font30px {
+  font-size: 30px;
+}
+
+.font26px {
+  font-size: 26px;
+}
+
+.font24px {
+  font-size: 24px;
+}
+
+.font22px {
+  font-size: 22px;
+}
+
+.font20px {
+  font-size: 20px;
+}
+
+.font18px {
+  font-size: 18px;
+}
+
+.font16px {
+  font-size: 16px;
+}
+
+.font14px {
+  font-size: 14px;
+}
+
+.font12px {
+  font-size: 12px;
+}
+
+.font10px {
+  font-size: 10px;
+}
+
+.font8px {
+  font-size: 8px;
+}
+
+/** Font Selectors **/
+.lightMont {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.regularMont {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.mediumMont {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.semiBoldMont {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.boldMont {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/* Button */
+
+.purpleButton {
+  width: 100%;
+  padding: 11px 40%;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 100px 100px 100px 100px;
+  cursor: pointer;
+  transition: all, 240ms ease-in-out;
+  background: rgb(169,135,226);
+  background: linear-gradient(90deg,
+  rgba(169,135,226,1) 20%,
+  rgba(119,39,255,1) 100%);
+}
+
+.purpleButton:hover {
+  filter: brightness(1.03);
+}
+
+
